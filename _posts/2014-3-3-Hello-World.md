@@ -1,6 +1,6 @@
 ---
 layout: post
-title: New year new blog
+title: New year New blog
 published: true
 ---
 
