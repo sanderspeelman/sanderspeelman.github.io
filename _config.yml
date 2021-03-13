@@ -107,10 +107,10 @@ prose:
           label: "Add Tags"
           placeholder: "Choose Tags"
           options:
-            - name: "Apples"
-              value: "apples"
-            - name: "Bananas"
-              value: "bananas"
+            - name: "MSIX"
+              value: "MSIX"
+            - name: "App-v"
+              value: "App-v"
     _posts/static:
       - name: "layout"
         field:
