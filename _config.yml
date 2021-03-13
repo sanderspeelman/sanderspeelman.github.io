@@ -117,7 +117,13 @@ prose:
           element: "hidden"
           value: "page"
       - name: "permalink"
+      
         field:
           element: "text"
           label: "Permalink"
           value: ""
+          - name: "categories"
+        field:
+          label: "categories"
+          element: "text"
+          placeholder: "Enter categories"
