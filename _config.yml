@@ -86,44 +86,38 @@ exclude:
   - CNAME
 
 prose:
-  rooturl: '_posts'
-  siteurl: 'http://sanderspeelman.github.io/'
-  relativeLinks: 'http://sanderspeelman.github.io/'
-  media: 'media'
-  ignore:
-    - index.md
-    - _config.yml
-    - /_layouts
-    - /_includes
+  rooturl: ''
+  siteurl: 'https://www.speelmanict.nl'
+  media: 'assets'
   metadata:
     _posts:
       - name: "layout"
         field:
-          element: "hidden"
-          value: "blog"
-      - name: "tags"
-        field:
-          element: "multiselect"
-          label: "Add Tags"
-          placeholder: "Choose Tags"
-          options:
-            - name: "MSIX"
-              value: "MSIX"
-            - name: "App-v"
-              value: "App-v"
-    _posts/static:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "page"
-      - name: "permalink"
-      
-        field:
+          label: "layout"
           element: "text"
-          label: "Permalink"
-          value: ""
-          - name: "categories"
+          value: "post"
+      - name: "date"
+        field:
+          label: "date"
+          element: "text"
+          value: "CURRENT_DATETIME"
+      - name: "author"
+        field:
+          label: "author"
+          element: "text"
+          value: "Hywel"
+      - name: "categories"
         field:
           label: "categories"
           element: "text"
           placeholder: "Enter categories"
+      - name: "excerpt"
+        field:
+          label: "excerpt"
+          element: "text"
+          placeholder: "Enter excerpt"
+      - name: "meta"
+        field:
+          label: "meta"
+          element: "text"
+          placeholder: "Enter metadata"
