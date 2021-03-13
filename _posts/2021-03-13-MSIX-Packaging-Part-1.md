@@ -17,6 +17,3 @@ Step 1: Open Hyper-V Quick Create and select MSIX Packaging Tool Enviroment and 
 
 Hyper-V will then download the latest version and create the virtual machine.
 ![2021-03-13 15_05_22-Hyper-V Manager.png]({{site.baseurl}}/_posts/2021-03-13 15_05_22-Hyper-V Manager.png)
-
-
-
