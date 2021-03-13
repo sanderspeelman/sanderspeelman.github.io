@@ -16,8 +16,13 @@ I recommend to read the fundamentals of MSIX which can be downloaded [here](http
 
 To start with we need to create our packaging machine. On my laptop I use Hyper-v to run virtual machines. Using Hyper-V you can easily create a MSIX Packaging Tool Enviroment using Hyper-V Quick Create.
 
-Step 1: Open Hyper-V Quick Create and select MSIX Packaging Tool Enviroment and click on Create Virtual Machine,
+Open Hyper-V Quick Create and select MSIX Packaging Tool Enviroment and click on Create Virtual Machine,
 ![2021-03-13 15_02_58-Hyper-V Manager.png]({{site.baseurl}}/_posts/2021-03-13 15_02_58-Hyper-V Manager.png)
 
 Hyper-V will then download the latest version and create the virtual machine.
 ![2021-03-13 15_05_22-Hyper-V Manager.png]({{site.baseurl}}/_posts/2021-03-13 15_05_22-Hyper-V Manager.png)
+
+Once the machine is created click on Connect
+![2021-03-13 15_25_19-Create Virtual Machine.png]({{site.baseurl}}/assets/2021-03-13 15_25_19-Create Virtual Machine.png)
+
+
