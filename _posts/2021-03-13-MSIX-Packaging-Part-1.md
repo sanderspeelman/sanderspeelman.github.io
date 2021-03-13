@@ -1,5 +1,9 @@
 ---
 published: false
+layout: post
+date: '2021-03-13 15:21 +0100'
+author: Sander Speelman
+categories: MSIX
 ---
 ## Introduction
 During my work as an Application Specialist, I come across applications that need to be mass deployed to endpoints. Before that can happen the vendor either deliver unattended parameters to their installation process or they deliver another installation format like MSI.
